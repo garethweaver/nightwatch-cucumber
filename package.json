@@ -1,0 +1,12 @@
+{
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.2.1",
+    "chromedriver": "^101.0.0",
+    "nightwatch": "^2.1.5"
+  },
+  "scripts": {
+    "test": "nightwatch",
+    "test:tags": "nightwatch --tag demotest"
+  }
+}
