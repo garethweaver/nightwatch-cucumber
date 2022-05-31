@@ -7,6 +7,6 @@
   },
   "scripts": {
     "test": "nightwatch",
-    "test:tags": "nightwatch --tag demotest"
+    "test:tags": "nightwatch --tags @demotest"
   }
 }
