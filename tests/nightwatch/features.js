@@ -1,7 +1,7 @@
 const { Given, Then } = require('@cucumber/cucumber')
 
 Given('I run a demo test', () => {
-  browser
+  return browser
     .url('https://www.ecosia.org/')
     .setValue('input[type=search]', 'nightwatch')
     .click('button[type=submit]')
