@@ -18,9 +18,6 @@ module.exports = {
       launch_url: '',
       desiredCapabilities : {
         browserName : 'chrome',
-        chromeOptions : {
-          'window-size': '1280,1280',
-        },
       },
     },
   },
