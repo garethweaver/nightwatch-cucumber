@@ -4,6 +4,7 @@ Given('I run a demo test', () => {
   return browser
     .url('https://www.wonderbly.com/')
     .click('a.SwitchCountry__country:nth-child(2)')
-    .click('.nav--visible .nav-item:nth-child(1) a.nav-item__link')
-    .assert.textContains('.TextHero__title', 'Personalized books')
+    .click('button.cky-btn.cky-btn-accept')
+    .click('a.LinksNav__link[href="/sitemap"]')
+    .assert.textContains('.Sitemap__Category__title', 'Product Range')
 })
