@@ -3,7 +3,7 @@ module.exports = {
   test_runner: {
     type: 'cucumber',
     options: {
-      feature_path: './tests/cucumber/**/*',
+      feature_path: './tests/cucumber',
       auto_start_session: true,
       parallel: 1,
     },
